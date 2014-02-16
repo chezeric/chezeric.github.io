@@ -1,0 +1,168 @@
+@charset "utf-8";
+/*css document*/
+body
+{
+text-align:center;
+/*for unsupported browsers*/ 
+background:black;
+/*for firefox*/
+background:-moz-linear-gradient(left, black, #deb887, black);
+/*for safari and chrome*/
+background:-webkit-gradient(linear, left top, right top, from(black), to(black), color-stop(0.5,#deb887));
+/*W3C specs*/
+background:linear-gradient(left, black, #deb887, black);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='black', endColorstr='#deb887');
+/*for IE*/
+height:1970px;
+}
+
+h1
+{
+font-family:Trebuchet MS;
+font-size:32px;
+text-align:left;
+}
+
+h4
+{
+font-family:Arno Pro Smbd;
+font-size:20px;
+color:grey;
+text-indent:2em;
+}
+
+h5
+{
+font-family:calibri;
+font-size:8px;
+margin:0px;
+padding:0px;
+color:#000;
+text-align:center;
+}
+
+
+.main
+{
+width:1240px; 
+margin:0 auto;
+text-align:left;
+height:1970px;
+}
+
+#container1
+{
+position:relative;
+top:0px;
+width:1240px;
+height:1970px;
+margin:0 auto 0;
+padding:0;
+text-align:left;
+border:1px solid black;
+background:white;
+/*
+-webkit-box-shadow:2px 2px 2px 2px #333333;
+-moz-box-shadow:2px 2px 2px 2px #333333;-o-box-shadow:2px 2px 2px 2px #333333;-ms-box-shadow:2px 2px 2px 2px #333333;
+box-shadow:2px 2px 2px 2px #333333;
+-webkit-column-count:;
+-moz-column-count:;-o-column-count:;-ms-column-count:;
+column-count:;
+-webkit-column-count:10px;
+-moz-column-width:10px;-o-column-width:10px;-ms-column-width:10px;
+column-width:10px;
+-webkit-column-count:2px;-moz-column-gap:2px;-o-column-gap:2px;-ms-column-gap:2px;
+column-gap:2px;
+-webkit-border-radius:1em;
+-moz-border-radius:1em;-o-border-radius:1em;-ms-border-radius:1em;
+border-radius:1em;
+background-color: #FFFFFF;
+color: #666666;
+font-size: 1.2em;-ms-border-radius:1.0em;
+*/
+}
+
+#photobox
+{
+position:relative;
+top:0px;
+width:888px;
+height:588px;
+left:176px;
+
+}
+#headerbox
+{
+position:relative;
+top:0px;
+left:0px;
+height:271px;
+}
+
+#textbox
+{
+position:relative;
+top:0px;
+left:176px;
+width:888px;
+font-family:Arno Pro Smbd;
+
+}
+
+#ingredients
+{
+position:relative;
+top:0px;
+left:176px;
+height:348px;
+width:444px;
+
+}
+#ingredients2
+{
+position:relative;
+top:-348px;
+left:620px;
+height:348px;
+width:444px;
+
+}
+
+#footerbox
+{
+position:relative;
+top:-350px;
+left:0px;
+height:398px;
+
+}
+
+
+
+/*
+
+#footer
+{
+position:absolute;
+left:0px;
+bottom:9px;
+width:1240px;
+height:12px;
+text-align:center;
+/*
+/*for unsupported browsers 
+background:black;
+
+/*for firefox
+background:-moz-linear-gradient(top, black, #fff, black);
+
+/*for safari and chrome
+background:-webkit-gradient(linear, left top, left bottom, from(black), to(black), color-stop(0.5,#fff));
+
+/*W3C specs
+background:linear-gradient(left top, black, #fff, black);
+
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='black', endColorstr='#ffffff');
+*/
+/*for IE*/
+}
